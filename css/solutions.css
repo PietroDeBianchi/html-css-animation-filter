@@ -1,0 +1,16 @@
+/* ESERCIZIO 1 */
+.ex-1-square:hover {
+    animation: color-change 3s;
+}
+  
+@keyframes color-change {
+    0% {
+      background-color: none;
+    }
+
+    100% {
+      background-color: red;
+    }
+}
+
+/* ESERCIZIO 2 */
