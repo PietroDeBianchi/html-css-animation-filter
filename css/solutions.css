@@ -73,3 +73,27 @@
         width: 30px;
     }
 }
+
+/* ESERCIZIO 6 */
+.ex-6-img:hover {
+    animation: blacknwhite 3s;
+}
+
+@keyframes blacknwhite {
+   
+    100% {
+        filter: grayscale(100%);
+    }
+}
+
+/* ESERCIZIO 7 */
+.ex-7-img:hover {
+    animation: seppia 3s;
+}
+
+@keyframes seppia {
+   
+    100% {
+        filter: sepia(100%);
+    }
+}
