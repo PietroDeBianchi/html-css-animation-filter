@@ -209,7 +209,7 @@
 
 /* ESERCIZIO 13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: rounding 3s;
+    animation: rounding 4s;
     animation-timing-function: linear; 
     animation-iteration-count: infinite; 
 }
@@ -249,7 +249,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: rounding2 3s;
+    animation: rounding2 4s;
     animation-timing-function: linear; 
     animation-iteration-count: infinite; 
 }
