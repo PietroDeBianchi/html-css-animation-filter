@@ -14,3 +14,13 @@
 }
 
 /* ESERCIZIO 2 */
+.ex-2-square:active {
+    animation: width-change 3s;
+}
+
+@keyframes width-change {
+
+    100% {
+      width: 100%;
+    }
+}
