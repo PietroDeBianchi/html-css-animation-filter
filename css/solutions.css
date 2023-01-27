@@ -127,3 +127,28 @@
         width: 80%;
     }
 }
+
+/* ESERCIZIO 10 */
+.ex-10-icon:hover {
+    animation: spin 2s;
+    animation-timing-function: linear; /* set the acceleration curve during the animation */
+    animation-iteration-count: infinite; /* set the repetition-number of animation */
+}
+@keyframes spin {
+    
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
