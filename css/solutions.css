@@ -52,6 +52,7 @@
 /* ESERCIZIO 5 */
 .ex-5-square:hover {
     animation: expand 4s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes expand {
@@ -109,5 +110,20 @@
     100% {
         filter: saturate(500%);
         border-radius: 50px 0 50px 0;
+    }
+}
+
+/* ESERCIZIO 9 */
+.ex-9-img:hover {
+    animation: crazy 3s;
+    animation-fill-mode: forwards; /* ho provato a mantere l'animazione con hover */
+}
+
+@keyframes crazy {
+   
+    100% {
+        filter: saturate(250%);
+        border-radius: 20px;
+        width: 80%;
     }
 }
