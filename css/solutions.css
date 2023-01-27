@@ -152,3 +152,28 @@
         rotate: 360deg;
     }
 }
+
+/* ESERCIZIO 10 */
+.ex-11-icon:hover {
+    animation: semispin 2s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+}
+@keyframes semispin {
+    
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 0; /* ho visto che si poteva anche non mettere ai fini dell'animazione ma mi sembrava più corretto */
+    }
+}
