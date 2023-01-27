@@ -97,3 +97,17 @@
         filter: sepia(100%);
     }
 }
+
+/* ESERCIZIO 8 */
+.ex-8-img:hover {
+    animation: acids 3s;
+    animation-fill-mode: forwards; /* ho provato a mantere l'animazione con hover */
+}
+
+@keyframes acids {
+   
+    100% {
+        filter: saturate(500%);
+        border-radius: 50px 0 50px 0;
+    }
+}
