@@ -153,7 +153,7 @@
     }
 }
 
-/* ESERCIZIO 10 */
+/* ESERCIZIO 11 */
 .ex-11-icon:hover {
     animation: semispin 2s;
     animation-timing-function: linear; 
@@ -176,4 +176,34 @@
     100% {
         rotate: 0; /* ho visto che si poteva anche non mettere ai fini dell'animazione ma mi sembrava più corretto */
     }
+}
+
+/* ESERCIZIO 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: moving 2.5s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes moving {
+
+    50% {
+        left: 50%;
+    }
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moving2 2.5s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes moving2 {
+
+    50% {
+        right: 50%;
+    }
+
 }
